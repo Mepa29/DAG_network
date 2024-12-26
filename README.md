@@ -1,7 +1,7 @@
-# This folder is about codes of synchronization project on Directed networks
+# This folder includes basic codes of synchronization projects on Directed networks
 # Directed acyclic graph(DAG) Network, FeedForward loops:
-This code is a function that gets an undirected graph and transforms it into a DAG network (Directed acyclic network)
-It gets an adjacency matrix as input and returns a new adjacency matrix. This new network has only one leader node that has zero in_degrees
+This code is a function that gets an undirected graph as input then transforms it into a DAG network (Directed acyclic network)
+It gets an adjacency matrix and returns a new adjacency matrix. This new network has only one leader node that has zero in_degrees
 the new graph is connected based on the directed networks definition. algorithm is based on the article below:
 https://www.researchgate.net/publication/281542584_Are_feedback_loops_destructive_to_synchronization
 # Ml_prediction_test:
